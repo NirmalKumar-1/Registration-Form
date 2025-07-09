@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+
+    <!--custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="inner">
+        <img src="" alt="" />
+        <form action="">
+          <h3>Registration Form</h3>
+          <div class="form-holder">
+            <div class="form-data">
+              <span class="lnr lnr-user"></span>
+              <input
+                required
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                autocomplete="off"
+                id="username"
+              />
+            </div>
+            <div class="error" id="usernameError"></div>
+          </div>
+
+          <div class="form-holder">
+            <div class="form-data">
+              <span class="lnr lnr-phone-handset"></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Phone Number"
+                required
+                autocomplete="off"
+                id="Phone"
+              />
+            </div>
+            <div class="error" id="phoneError"></div>
+          </div>
+
+          <div class="form-holder">
+            <div class="form-data">
+              <span class="lnr lnr-envelope"></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="E-Mail"
+                required
+                autocomplete="off"
+                id="email"
+              />
+            </div>
+            <div class="error" id="emailError"></div>
+          </div>
+
+          <div class="form-holder">
+            <div class="form-data">
+              <span class="lnr lnr-lock"></span>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Password"
+                required
+                autocomplete="off"
+                id="password"
+              />
+            </div>
+            <div class="error" id="passwordError"></div>
+          </div>
+
+          <div class="form-holder">
+            <div class="form-data">
+              <span class="lnr lnr-lock"></span>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Confirm Password"
+                required
+                autocomplete="off"
+                id="conformPassword"
+              />
+            </div>
+            <div class="error" id="conformPasswordError"></div>
+          </div>
+
+          <button class="formSubmit">
+            <span>Register</span>
+          </button>
+        </form>
+        <img src="" alt="">
+      </div>
+    </div>
+
+    <!-- javaScript link -->
+    <script src="app.js"></script>
+  </body>
+</html>
